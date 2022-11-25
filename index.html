@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<script src="javascript.js"></script>
         <title>Youtube Clone</title>
     </head>
@@ -19,7 +19,7 @@
             <div class="search">
                 <form action="">
                     <input type="text" placeholder="Search" />
-                    <button><i class="material-icons">Search</i></button>
+                    <button><i class="material-icons">search</i></button>
                 </form>
                 <i class="material-icons mic">mic</i>
             </div>
@@ -38,10 +38,204 @@
                     <a class="nav-link active"><i class="material-icons">home</i>
                         <span>Home</span>
                     </a>
+                    <a class="nav-link active"><i class="material-icons">local_fire_department</i>
+                        <span>Trending</span>
+                    </a>
+                    <a class="nav-link active"><i class="material-icons">subscriptions</i>
+                        <span>Subscriptions</span>
+                    </a>
                 </div>
+                <hr>
+                <a class="nav-link active"><i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </a>
+                <a class="nav-link active"><i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+                <a class="nav-link active"><i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </a>
+                <a class="nav-link active"><i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </a>
+                <a class="nav-link active"><i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </a>
             </div>
-            <div class="content">
 
+            <div class="content">
+                <div class="category">
+                    <div>All</div>
+                    <div>Music</div>
+                    <div>Mixes</div>
+                    <div>Bhajan Music</div>
+                    <div>Bollywood Music</div>
+                    <div>Reverberation</div>
+                    <div>Indian Pop</div>
+                    <div>Melody</div>
+                </div>
+                <div class="videos">
+                    <!-- a video starts -->
+                    <div class="video">
+                        <div class="thumbnail">
+                            <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" poster="images/song.jpg">
+                                <source src="https://rr5---sn-gwpa-o5bl.googlevideo.com/videoplayback?expire=1669414587&ei=W-qAY6eGMs31zLUPksu84Ag&ip=209.107.210.120&id=o-ACGseUdBKCYBl86osrtN0N8iqq1mz2OjojP4cMDOGGMN&itag=18&source=youtube&requiressl=yes&spc=SFxXNvfeHf8KIBMGNjd30FtPz1fxSj8&vprv=1&mime=video%2Fmp4&ns=Q6QJUHJxlCo1uXTQzUg5CmYJ&cnr=14&ratebypass=yes&dur=274.134&lmt=1665120756093723&fexp=24001373,24007246&c=WEB&txp=5538434&n=CFWmQBdPfyjGgA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAL8Hpp9qljDZ7K-Sc8p_IOZfLNV9noAcca1NVEVjWDJ8AiEAyxZKftd5KSkZmG-gMOsB3RjWKOWqzgAHlNTM81nQjE0%3D&redirect_counter=1&rm=sn-vgqel67e&req_id=7208784ae4c6a3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&mh=xQ&mip=2409:4042:11e:3360:e98b:3141:4196:2d81&mm=31&mn=sn-gwpa-o5bl&ms=au&mt=1669396846&mv=u&mvi=5&pl=41&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgb4Zr2k_B7qp_iHrwAMdKMIuJj5koYeQz1CVCaDAyoncCIHsc8RjXFeSbML3_UIjceuQNs_Du4qxMdMbwo-U32l7E" 
+                                type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="images/sonymusic.jpg" alt="logo"/>
+                            </div>
+                            <div class="title">
+                                <a href=""><h3>Piya O Re Piya | Atif Aslam | Shreya Ghoshal</h3></a>
+                                <a href="">Sony Music India</a>
+                                <span>3M Views · 3 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a video ends -->
+                    <!-- a video starts -->
+                    <div class="video">
+                        <div class="thumbnail">
+                            <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" poster="images/song.jpg">
+                                <source src="https://rr5---sn-gwpa-o5bl.googlevideo.com/videoplayback?expire=1669414587&ei=W-qAY6eGMs31zLUPksu84Ag&ip=209.107.210.120&id=o-ACGseUdBKCYBl86osrtN0N8iqq1mz2OjojP4cMDOGGMN&itag=18&source=youtube&requiressl=yes&spc=SFxXNvfeHf8KIBMGNjd30FtPz1fxSj8&vprv=1&mime=video%2Fmp4&ns=Q6QJUHJxlCo1uXTQzUg5CmYJ&cnr=14&ratebypass=yes&dur=274.134&lmt=1665120756093723&fexp=24001373,24007246&c=WEB&txp=5538434&n=CFWmQBdPfyjGgA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAL8Hpp9qljDZ7K-Sc8p_IOZfLNV9noAcca1NVEVjWDJ8AiEAyxZKftd5KSkZmG-gMOsB3RjWKOWqzgAHlNTM81nQjE0%3D&redirect_counter=1&rm=sn-vgqel67e&req_id=7208784ae4c6a3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&mh=xQ&mip=2409:4042:11e:3360:e98b:3141:4196:2d81&mm=31&mn=sn-gwpa-o5bl&ms=au&mt=1669396846&mv=u&mvi=5&pl=41&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgb4Zr2k_B7qp_iHrwAMdKMIuJj5koYeQz1CVCaDAyoncCIHsc8RjXFeSbML3_UIjceuQNs_Du4qxMdMbwo-U32l7E" 
+                                type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="images/sonymusic.jpg" alt="logo"/>
+                            </div>
+                            <div class="title">
+                                <a href=""><h3>Piya O Re Piya | Atif Aslam | Shreya Ghoshal</h3></a>
+                                <a href="">Sony Music India</a>
+                                <span>3M Views · 3 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a video ends -->
+                    <!-- a video starts -->
+                    <div class="video">
+                        <div class="thumbnail">
+                            <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" poster="images/song.jpg">
+                                <source src="https://rr5---sn-gwpa-o5bl.googlevideo.com/videoplayback?expire=1669414587&ei=W-qAY6eGMs31zLUPksu84Ag&ip=209.107.210.120&id=o-ACGseUdBKCYBl86osrtN0N8iqq1mz2OjojP4cMDOGGMN&itag=18&source=youtube&requiressl=yes&spc=SFxXNvfeHf8KIBMGNjd30FtPz1fxSj8&vprv=1&mime=video%2Fmp4&ns=Q6QJUHJxlCo1uXTQzUg5CmYJ&cnr=14&ratebypass=yes&dur=274.134&lmt=1665120756093723&fexp=24001373,24007246&c=WEB&txp=5538434&n=CFWmQBdPfyjGgA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAL8Hpp9qljDZ7K-Sc8p_IOZfLNV9noAcca1NVEVjWDJ8AiEAyxZKftd5KSkZmG-gMOsB3RjWKOWqzgAHlNTM81nQjE0%3D&redirect_counter=1&rm=sn-vgqel67e&req_id=7208784ae4c6a3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&mh=xQ&mip=2409:4042:11e:3360:e98b:3141:4196:2d81&mm=31&mn=sn-gwpa-o5bl&ms=au&mt=1669396846&mv=u&mvi=5&pl=41&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgb4Zr2k_B7qp_iHrwAMdKMIuJj5koYeQz1CVCaDAyoncCIHsc8RjXFeSbML3_UIjceuQNs_Du4qxMdMbwo-U32l7E" 
+                                type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="images/sonymusic.jpg" alt="logo"/>
+                            </div>
+                            <div class="title">
+                                <a href=""><h3>Piya O Re Piya | Atif Aslam | Shreya Ghoshal</h3></a>
+                                <a href="">Sony Music India</a>
+                                <span>3M Views · 3 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a video ends -->
+                    <!-- a video starts -->
+                    <div class="video">
+                        <div class="thumbnail">
+                            <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" poster="images/song.jpg">
+                                <source src="https://rr5---sn-gwpa-o5bl.googlevideo.com/videoplayback?expire=1669414587&ei=W-qAY6eGMs31zLUPksu84Ag&ip=209.107.210.120&id=o-ACGseUdBKCYBl86osrtN0N8iqq1mz2OjojP4cMDOGGMN&itag=18&source=youtube&requiressl=yes&spc=SFxXNvfeHf8KIBMGNjd30FtPz1fxSj8&vprv=1&mime=video%2Fmp4&ns=Q6QJUHJxlCo1uXTQzUg5CmYJ&cnr=14&ratebypass=yes&dur=274.134&lmt=1665120756093723&fexp=24001373,24007246&c=WEB&txp=5538434&n=CFWmQBdPfyjGgA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAL8Hpp9qljDZ7K-Sc8p_IOZfLNV9noAcca1NVEVjWDJ8AiEAyxZKftd5KSkZmG-gMOsB3RjWKOWqzgAHlNTM81nQjE0%3D&redirect_counter=1&rm=sn-vgqel67e&req_id=7208784ae4c6a3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&mh=xQ&mip=2409:4042:11e:3360:e98b:3141:4196:2d81&mm=31&mn=sn-gwpa-o5bl&ms=au&mt=1669396846&mv=u&mvi=5&pl=41&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgb4Zr2k_B7qp_iHrwAMdKMIuJj5koYeQz1CVCaDAyoncCIHsc8RjXFeSbML3_UIjceuQNs_Du4qxMdMbwo-U32l7E" 
+                                type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="images/sonymusic.jpg" alt="logo"/>
+                            </div>
+                            <div class="title">
+                                <a href=""><h3>Piya O Re Piya | Atif Aslam | Shreya Ghoshal</h3></a>
+                                <a href="">Sony Music India</a>
+                                <span>3M Views · 3 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a video ends -->
+                    <!-- a video starts -->
+                    <div class="video">
+                        <div class="thumbnail">
+                            <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" poster="images/song.jpg">
+                                <source src="https://rr5---sn-gwpa-o5bl.googlevideo.com/videoplayback?expire=1669414587&ei=W-qAY6eGMs31zLUPksu84Ag&ip=209.107.210.120&id=o-ACGseUdBKCYBl86osrtN0N8iqq1mz2OjojP4cMDOGGMN&itag=18&source=youtube&requiressl=yes&spc=SFxXNvfeHf8KIBMGNjd30FtPz1fxSj8&vprv=1&mime=video%2Fmp4&ns=Q6QJUHJxlCo1uXTQzUg5CmYJ&cnr=14&ratebypass=yes&dur=274.134&lmt=1665120756093723&fexp=24001373,24007246&c=WEB&txp=5538434&n=CFWmQBdPfyjGgA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAL8Hpp9qljDZ7K-Sc8p_IOZfLNV9noAcca1NVEVjWDJ8AiEAyxZKftd5KSkZmG-gMOsB3RjWKOWqzgAHlNTM81nQjE0%3D&redirect_counter=1&rm=sn-vgqel67e&req_id=7208784ae4c6a3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&mh=xQ&mip=2409:4042:11e:3360:e98b:3141:4196:2d81&mm=31&mn=sn-gwpa-o5bl&ms=au&mt=1669396846&mv=u&mvi=5&pl=41&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgb4Zr2k_B7qp_iHrwAMdKMIuJj5koYeQz1CVCaDAyoncCIHsc8RjXFeSbML3_UIjceuQNs_Du4qxMdMbwo-U32l7E" 
+                                type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="images/sonymusic.jpg" alt="logo"/>
+                            </div>
+                            <div class="title">
+                                <a href=""><h3>Piya O Re Piya | Atif Aslam | Shreya Ghoshal</h3></a>
+                                <a href="">Sony Music India</a>
+                                <span>3M Views · 3 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a video ends -->
+                    <!-- a video starts -->
+                    <div class="video">
+                        <div class="thumbnail">
+                            <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" poster="images/song.jpg">
+                                <source src="https://rr5---sn-gwpa-o5bl.googlevideo.com/videoplayback?expire=1669414587&ei=W-qAY6eGMs31zLUPksu84Ag&ip=209.107.210.120&id=o-ACGseUdBKCYBl86osrtN0N8iqq1mz2OjojP4cMDOGGMN&itag=18&source=youtube&requiressl=yes&spc=SFxXNvfeHf8KIBMGNjd30FtPz1fxSj8&vprv=1&mime=video%2Fmp4&ns=Q6QJUHJxlCo1uXTQzUg5CmYJ&cnr=14&ratebypass=yes&dur=274.134&lmt=1665120756093723&fexp=24001373,24007246&c=WEB&txp=5538434&n=CFWmQBdPfyjGgA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAL8Hpp9qljDZ7K-Sc8p_IOZfLNV9noAcca1NVEVjWDJ8AiEAyxZKftd5KSkZmG-gMOsB3RjWKOWqzgAHlNTM81nQjE0%3D&redirect_counter=1&rm=sn-vgqel67e&req_id=7208784ae4c6a3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&mh=xQ&mip=2409:4042:11e:3360:e98b:3141:4196:2d81&mm=31&mn=sn-gwpa-o5bl&ms=au&mt=1669396846&mv=u&mvi=5&pl=41&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgb4Zr2k_B7qp_iHrwAMdKMIuJj5koYeQz1CVCaDAyoncCIHsc8RjXFeSbML3_UIjceuQNs_Du4qxMdMbwo-U32l7E" 
+                                type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="images/sonymusic.jpg" alt="logo"/>
+                            </div>
+                            <div class="title">
+                                <a href=""><h3>Piya O Re Piya | Atif Aslam | Shreya Ghoshal</h3></a>
+                                <a href="">Sony Music India</a>
+                                <span>3M Views · 3 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a video ends -->
+                    <!-- a video starts -->
+                    <div class="video">
+                        <div class="thumbnail">
+                            <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" poster="images/song.jpg">
+                                <source src="https://rr5---sn-gwpa-o5bl.googlevideo.com/videoplayback?expire=1669414587&ei=W-qAY6eGMs31zLUPksu84Ag&ip=209.107.210.120&id=o-ACGseUdBKCYBl86osrtN0N8iqq1mz2OjojP4cMDOGGMN&itag=18&source=youtube&requiressl=yes&spc=SFxXNvfeHf8KIBMGNjd30FtPz1fxSj8&vprv=1&mime=video%2Fmp4&ns=Q6QJUHJxlCo1uXTQzUg5CmYJ&cnr=14&ratebypass=yes&dur=274.134&lmt=1665120756093723&fexp=24001373,24007246&c=WEB&txp=5538434&n=CFWmQBdPfyjGgA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAL8Hpp9qljDZ7K-Sc8p_IOZfLNV9noAcca1NVEVjWDJ8AiEAyxZKftd5KSkZmG-gMOsB3RjWKOWqzgAHlNTM81nQjE0%3D&redirect_counter=1&rm=sn-vgqel67e&req_id=7208784ae4c6a3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&mh=xQ&mip=2409:4042:11e:3360:e98b:3141:4196:2d81&mm=31&mn=sn-gwpa-o5bl&ms=au&mt=1669396846&mv=u&mvi=5&pl=41&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgb4Zr2k_B7qp_iHrwAMdKMIuJj5koYeQz1CVCaDAyoncCIHsc8RjXFeSbML3_UIjceuQNs_Du4qxMdMbwo-U32l7E" 
+                                type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="images/sonymusic.jpg" alt="logo"/>
+                            </div>
+                            <div class="title">
+                                <a href=""><h3>Piya O Re Piya | Atif Aslam | Shreya Ghoshal</h3></a>
+                                <a href="">Sony Music India</a>
+                                <span>3M Views · 3 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a video ends -->
+                    <!-- a video starts -->
+                    <div class="video">
+                        <div class="thumbnail">
+                            <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" poster="images/song.jpg">
+                                <source src="https://rr5---sn-gwpa-o5bl.googlevideo.com/videoplayback?expire=1669414587&ei=W-qAY6eGMs31zLUPksu84Ag&ip=209.107.210.120&id=o-ACGseUdBKCYBl86osrtN0N8iqq1mz2OjojP4cMDOGGMN&itag=18&source=youtube&requiressl=yes&spc=SFxXNvfeHf8KIBMGNjd30FtPz1fxSj8&vprv=1&mime=video%2Fmp4&ns=Q6QJUHJxlCo1uXTQzUg5CmYJ&cnr=14&ratebypass=yes&dur=274.134&lmt=1665120756093723&fexp=24001373,24007246&c=WEB&txp=5538434&n=CFWmQBdPfyjGgA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAL8Hpp9qljDZ7K-Sc8p_IOZfLNV9noAcca1NVEVjWDJ8AiEAyxZKftd5KSkZmG-gMOsB3RjWKOWqzgAHlNTM81nQjE0%3D&redirect_counter=1&rm=sn-vgqel67e&req_id=7208784ae4c6a3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&mh=xQ&mip=2409:4042:11e:3360:e98b:3141:4196:2d81&mm=31&mn=sn-gwpa-o5bl&ms=au&mt=1669396846&mv=u&mvi=5&pl=41&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgb4Zr2k_B7qp_iHrwAMdKMIuJj5koYeQz1CVCaDAyoncCIHsc8RjXFeSbML3_UIjceuQNs_Du4qxMdMbwo-U32l7E" 
+                                type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="images/sonymusic.jpg" alt="logo"/>
+                            </div>
+                            <div class="title">
+                                <a href=""><h3>Piya O Re Piya | Atif Aslam | Shreya Ghoshal</h3></a>
+                                <a href="">Sony Music India</a>
+                                <span>3M Views · 3 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a video ends -->
+                </div>
             </div>
         </main>
     </body>
