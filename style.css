@@ -112,15 +112,18 @@ input:focus{
 
 .nav-link span{
     margin-left: 15px;
-}
-
-.nav-link span:hover{
+    font-size: 15px;
     color: black;
 }
 
 .nav-link:hover{
-    background: #e5e5e5;
+    background-color: rgb(250, 248, 248);
+    color: black;
     cursor: pointer;
+    font-weight: bold;
+    border: 2px solid purple;
+    border-radius: 16px;
+    box-shadow: 4px 4px pink;
 }
 
 .active{
